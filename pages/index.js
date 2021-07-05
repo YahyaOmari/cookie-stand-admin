@@ -8,7 +8,8 @@ import Main from '../component/Main'
 export default function Home() {
   return (
     
-    <div className="flex flex-col items-center justify-center w-full h-full overflow-x-hidden text-2xl bg-green-100 ">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      
       <Head1 title='Cookie Stand Admin' >
 
       </Head1>
