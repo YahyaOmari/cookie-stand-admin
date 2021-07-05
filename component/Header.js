@@ -1,15 +1,10 @@
-import styles from '../styles/Home.module.css'
-
-
-function Header(){
-    return(
-        <header className='bg-green-400 w-full p-3'>
-            <h1 className='text-2xl font-medium'>
+export default function CookieStandHeader() {
+    return (
+        <header className="p-5 text-7xl text-left bg-green-500 font h-30 w-400% ">
+            <h1>
                 Cookie Stand Admin
             </h1>
-
+        
         </header>
     )
 }
-
-export default Header
